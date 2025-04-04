@@ -1,7 +1,9 @@
 let N = 50;
+let numeros = 0;
 
 for (i = 1; i <= N; i++) {
-  if (i % 3 === 0) {
-    console.log(`O número divísel por 3 é ${i}`);
+  if (i % 3 == 0) {
+    numeros = numeros + 1
   }
 }
+console.log(`${numeros}`);
